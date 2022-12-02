@@ -1,0 +1,14 @@
+{
+    // typescript files location
+    "include": [
+        "src"
+, "myPackage.d.ts", "myPackage.d.ts"    ],
+    "compilerOptions": {
+        "outDir": "build", // build directory
+        "target": "ES6", // typescript version
+        "lib": ["ES6", "DOM"],
+        "strict": true,
+        "allowJs": true,
+        "esModuleInterop": true
+    }
+}
